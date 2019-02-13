@@ -31,7 +31,6 @@ public class Control extends KeyAdapter implements SnakeListener {
 
 	@Override
 	public void snakeMove() {
-		
 		//判断蛇是否自己吃到自己
 		if(snake.isEatSelf()) {
 			JOptionPane.showConfirmDialog(null, "GameOver");
