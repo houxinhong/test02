@@ -10,6 +10,7 @@ public class Control extends KeyAdapter {
 
 	public Shape getShape() {
 		
+		
 		return shape;
 	}
 
