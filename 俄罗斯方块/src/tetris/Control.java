@@ -4,10 +4,10 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class Control extends KeyAdapter {
+
 	private Shape shape;
 	private GamePanel gamePanel;
 	private Ground ground;
-
 	public Shape getShape() {
 		
 		return shape;
@@ -26,9 +26,11 @@ public class Control extends KeyAdapter {
 	}
 
 	public Ground getGround() {
+		
 		return ground;
 	}
 
+	
 	public void setGround(Ground ground) {
 		this.ground = ground;
 	}
