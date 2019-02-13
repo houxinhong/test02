@@ -27,6 +27,7 @@ public class Control extends KeyAdapter {
 		return ground;
 	}
 
+	
 	public void setGround(Ground ground) {
 		this.ground = ground;
 	}
