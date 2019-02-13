@@ -24,6 +24,7 @@ public class Control extends KeyAdapter {
 	}
 
 	public Ground getGround() {
+		
 		return ground;
 	}
 
