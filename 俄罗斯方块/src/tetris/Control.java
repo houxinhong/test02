@@ -7,7 +7,6 @@ public class Control extends KeyAdapter {
 	private Shape shape;
 	private GamePanel gamePanel;
 	private Ground ground;
-
 	public Shape getShape() {
 		return shape;
 	}
