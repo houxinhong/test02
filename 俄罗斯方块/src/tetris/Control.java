@@ -9,6 +9,7 @@ public class Control extends KeyAdapter {
 	private Ground ground;
 
 	public Shape getShape() {
+		
 		return shape;
 	}
 
