@@ -4,6 +4,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class Control extends KeyAdapter {
+
 	private Shape shape;
 	private GamePanel gamePanel;
 	private Ground ground;
