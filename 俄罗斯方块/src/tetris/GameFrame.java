@@ -21,6 +21,7 @@ public class GameFrame extends JFrame {
 	}
 
 	public static void main(String[] args) {
+		//
 		// 创建窗体并添加面板
 		GameFrame gameFrame = new GameFrame();
 		gameFrame.lancher();
